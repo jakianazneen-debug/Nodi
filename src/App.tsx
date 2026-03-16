@@ -124,7 +124,7 @@ export function App() {
             {[
               "Home",
               "About",
-              "Portfolio",
+              "My Work",
               "Services",
               "Social",
               "Contact",
