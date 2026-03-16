@@ -160,8 +160,8 @@ export function App() {
           playsInline
         />
         <div className="video-overlay absolute inset-0" />
-        <div className="relative z-10 mx-auto mt-20 grid w-full max-w-6xl gap-12 px-6 py-16 md:grid-cols-[1.15fr_0.85fr] md:items-center">
-          <div className="space-y-7">
+      <div className="relative z-10 mx-auto mt-20 grid w-full max-w-6xl gap-12 px-6 py-16 md:grid-cols-[1.15fr_0.85fr] md:items-center">
+         <div className="space-y-7 order-2 md:order-1">
             <div className="flex flex-wrap items-center gap-3 text-xs uppercase tracking-[0.4em] text-white/60">
              
             </div>
@@ -206,7 +206,7 @@ export function App() {
               ))}
             </div>
           </div>
-          <div className="space-y-6">
+    <div className="space-y-6 order-1 md:order-2">
             <div className="relative overflow-hidden rounded-3xl border border-white/10 bg-[#1A1A1A]/70 p-4">
               <div
                 className="h-72 rounded-2xl bg-cover bg-center"
